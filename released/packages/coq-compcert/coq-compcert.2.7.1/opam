@@ -8,9 +8,10 @@ license: "INRIA Non-Commercial License Agreement"
 build: [
   ["./configure" "ia32-linux" {os = "linux"}
   		 "ia32-macosx" {os = "darwin"}
-		 "ia32-cygwin" {os = "cygwin"}
-		 "-bindir" "%{bin}%" "-libdir" "%{lib}%/compcert"
+		 "ia32-cygwin" {os = "win32"}
+  		 "-bindir" "%{bin}%" "-libdir" "%{lib}%/compcert"
 		 "-clightgen"]
+
   [make "-j%{jobs}%"]
 ]
 install: [
