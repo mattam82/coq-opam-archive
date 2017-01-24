@@ -1,0 +1,2 @@
+ppsimpl is a reflexive tactics for canonising goals. Typically, it injects various operations over nat, N, positive towards Z.
+
