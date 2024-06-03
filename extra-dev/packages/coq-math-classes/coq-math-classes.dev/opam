@@ -34,5 +34,5 @@ We have been working on a new set of foundational interfaces for formalized cons
 * ordinary mathematical notation and overloaded names not reliant on Coq's notation scopes."""
 flags: light-uninstall
 url {
-  src: "git+https://github.com/math-classes/math-classes.git#master"
+  src: "git+https://github.com/mattam82/math-classes.git#reference-arities"
 }
